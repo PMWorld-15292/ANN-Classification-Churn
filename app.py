@@ -1,3 +1,4 @@
+pip install tensorflow
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -68,4 +69,5 @@ if prediction_proba > 0.5:
     st.write("Custmer is likely to CHURN")
 else:
     st.write("Customer is not likely to CHURN.")
+
 
