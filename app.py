@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
+
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pandas as pd
 import pickle
@@ -68,6 +68,7 @@ if prediction_proba > 0.5:
     st.write("Custmer is likely to CHURN")
 else:
     st.write("Customer is not likely to CHURN.")
+
 
 
 
